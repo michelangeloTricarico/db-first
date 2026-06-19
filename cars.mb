@@ -1,12 +1,12 @@
 ## Table name: cars
 
-- id
-- brand
-- model
-- version
-- engine_capacity
-- engine_power
-- fuel_type
-- cylinder_number
-- color
-- optional
+- id PK BIGINT NOT NUL UNIQUE AI INDEX
+- brand VARCHAR(100) NOT NULL UNIQUE
+- model VARCHAR (100) NOT NULL UNIQUE INDEX
+- version CHAR(10) NULL
+- engine_capacity MEDIUMINT NOT NULL 
+- engine_power MEDIUMINT NOT NULL 
+- fuel_type MEDIUMINT NOT NULL INDEX
+- cylinder_number SMALLINT NOT NULL INDEX
+- color TEXT NOT NULL
+- optional TEXT DEFAULT(0)
