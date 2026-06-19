@@ -1,0 +1,12 @@
+## Table name: cars
+
+- id
+- brand
+- model
+- version
+- engine_capacity
+- engine_power
+- fuel_type
+- cylinder_number
+- color
+- optional
